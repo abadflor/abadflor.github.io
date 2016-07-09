@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <!--  <script src="../js/javascript1.js" type="text/javascript"></script>-->
+    </head>
+    <body>
+        <table width="100%">
+            <tr>
+                <td width="50%">
+                    <a href="Menu.jsp"><img src="../imagenes/logo.jpg" alt=""/></a>
+                </td>
+
+                <td width="15%">
+                    <s:url id="url" action="CarrerasAction">
+                    </s:url>
+                    <s:a href="%{url}">
+                        <img src="../imagenes/carreras.png"/><br>
+                        Carreras
+                    </s:a>
+                </td>
+
+                <td width="15%">
+                    <a href="meses.jsp">
+                        <img src="../imagenes/contact.png"/><br>
+                        Contacto
+                    </a>
+
+                </td>
+                <td width="15%">
+                    <a href="Servicios.jsp">
+                        <img src="../imagenes/servicios-alumno.png"/><br>
+                        Servicios
+                    </a>
+                </td>
+                <td width="15%">
+                    <a href="Servicios.jsp">
+                        <img src="../imagenes/admision.png"/><br>
+                        Servicios
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
